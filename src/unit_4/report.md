@@ -95,8 +95,9 @@ REMOTE
 
 echo "Server available at: http://$FLOATING_IP"
 ```
- 
+
 2. Explanation (Automation in Cloud Operations)
+
 Automation using scripting plays a fundamental role in modern cloud operations because it transforms manual administrative procedures into repeatable, consistent, and auditable workflows. In OpenStack environments, infrastructure components such as compute instances, networks, security groups, and keypairs can be provisioned either through a graphical interface or via command-line tools and APIs. While GUI-based management tools are useful for learning and visual oversight, scripting provides superior scalability, repeatability, and operational efficiency.
 The Bash script developed in this activity automates the provisioning and configuration of a virtual machine in OpenStack. First, it verifies that required commands (e.g., OpenStack CLI and SSH utilities) are installed. It then creates an SSH keypair and security group if they do not already exist, ensuring secure remote access. Next, it provisions a new compute instance using specified parameters such as image, flavor, and network. The script incorporates a cloud-init configuration file, which enables automated package installation (e.g., Nginx and Curl), service activation, and system configuration during instance boot. Finally, the script allocates and associates a floating IP address, allowing external access, and automatically executes validation commands over SSH.
 This approach reflects the principles of Infrastructure as Code (IaC), where infrastructure is defined and managed through machine-readable configuration files rather than manual processes. IaC improves reliability by reducing configuration drift, a phenomenon where systems diverge from their intended configuration due to undocumented changes (Pohjola, 2025). By encoding infrastructure logic into scripts, organisations ensure consistent deployment across development, testing, and production environments.
