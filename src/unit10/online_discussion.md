@@ -7,8 +7,8 @@ Implement a serverless function using OpenFaaS (an open-source serverless platfo
 Deliverable: A technical discussion of how you deployed the serverless function using OpenFaaS, along with the function code.
 
 -----------------------------
+My post:
 
-Number of replies: 0
 This task involved implementing and deploying a serverless greeting function using OpenFaaS, an open-source Function-as-a-Service (FaaS) platform designed for cloud-native environments. OpenFaaS enables developers to package functions as containers and deploy them via a gateway, abstracting infrastructure management while maintaining portability across platforms (OpenFaaS, 2024a).
 
 The deployment began by installing OpenFaaS on a Kubernetes cluster using Helm. After authenticating with the faas-cli, a new function was created using the Python Flask template:
