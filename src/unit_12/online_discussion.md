@@ -7,6 +7,7 @@ Discuss the future trends of AI, Blockchain, and Quantum Computing in cloud oper
 Deliverable: Post a discussion exploring the intersection of these technologies with cloud computing.
 
 ------------------
+My post:
 
 The future of cloud computing is increasingly shaped by the convergence of Artificial Intelligence (AI), Blockchain, and Quantum Computing, which together are transforming cloud operations into more intelligent, secure, and scalable systems. These technologies are not only enhancing existing capabilities but are also redefining how cloud infrastructures are designed and managed.
 
