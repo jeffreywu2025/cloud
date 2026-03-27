@@ -7,6 +7,7 @@ Perform a security audit of a cloud application deployed on OpenStack using Open
 Deliverable: Post an outline of a security audit, detailing the vulnerabilities found, any mitigation strategies, and compliance adherence recommendations.
 
 ---------------------
+My post:
 
 A security audit was conducted on a cloud-based application deployed within an OpenStack environment using OpenVAS, an open-source vulnerability scanning tool. The purpose of this audit was to identify potential vulnerabilities within the cloud infrastructure and evaluate mitigation strategies in line with recognised security standards such as ISO/IEC 27001 and regulatory requirements including the General Data Protection Regulation (GDPR).
 
