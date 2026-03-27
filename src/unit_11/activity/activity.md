@@ -24,7 +24,8 @@ Therefore, cloud platforms play a critical role in enabling the deployment and s
 
 The image recognition model was developed using TensorFlow and Keras, two widely used open-source frameworks for machine learning. A dataset consisting of labelled images of cats and dogs was used for training.
 A convolutional neural network (CNN) architecture was implemented due to its effectiveness in image classification tasks. The dataset was loaded and automatically split into training and validation sets using TensorFlow utilities. The model was trained over several epochs, allowing it to learn features from the input images.
- 
+
+![Figure](images/figure-1.png)
 Figure1
 
 The results in Figure1 showed high training accuracy but lower validation accuracy, indicating overfitting. This occurred due to the limited dataset size, which restricted the model’s ability to generalise to new data. Similar findings have been reported in AI research, where small datasets lead to reduced model performance (Kumar, 2024).
@@ -46,11 +47,11 @@ The OpenStack deployment required manual configuration of networking and infrast
  
 5. Deployment on AWS EC2
  
-Figure3 Connected the EC2 instance via SSH 
+Figure2 Connected the EC2 instance via SSH 
 
  
-Figure4 The model was successfully tested using a remote API request
-The model was also deployed on AWS EC2 as shown on Figure 3 and 4, a public cloud platform that provides scalable and managed infrastructure.
+Figure3 The model was successfully tested using a remote API request
+The model was also deployed on AWS EC2 as shown on Figure 2 and 3, a public cloud platform that provides scalable and managed infrastructure.
 
 Deployment Steps on AWS
 
@@ -65,12 +66,9 @@ The AWS deployment was faster and more automated compared to OpenStack, as netwo
 6. Comparison of OpenStack and AWS EC2
 
 Both OpenStack and AWS EC2 provide IaaS capabilities, but they differ in usability and configuration.
-Feature	OpenStack	AWS EC2
-Type	Private cloud	Public cloud
-Setup complexity	High	Low
-Networking	Manual	Automated
-Control	High	Moderate
-Deployment speed	Slower	Faster
+
+![Figure](images/figure-4.png)
+
 OpenStack offers greater control over infrastructure and is suitable for private cloud environments. In contrast, AWS provides a more user-friendly and efficient deployment process, making it suitable for rapid application development.
  
 7. Impact of AI on Cloud Operations
