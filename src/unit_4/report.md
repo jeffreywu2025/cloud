@@ -110,7 +110,10 @@ Although Bash scripting provides effective procedural automation for provisionin
 In conclusion, scripting automation significantly improves cloud operations by increasing efficiency, consistency, scalability, and compliance. The Bash script created for this formative activity demonstrates how OpenStack infrastructure can be provisioned and configured automatically, reducing manual intervention while ensuring reliable and repeatable cloud deployments. Automation is therefore not merely a convenience but a foundational practice in modern cloud-native operations.
  
 References:
+
 Pohjola, O. (2025) Mitigating configuration drift in infrastructure-as-code systems. Aalto University.
+
 Rahman, M., Kumaran, S. and Williams, J. (2024) ‘Compliance management of IaC-based cloud configurations at runtime’, Proceedings of the ACM International Conference, pp. 1–12.
+
 Zhao, L., Chen, Y. and Wang, H. (2024) ‘Educational resource private cloud platform based on OpenStack and Ceph’, Computers, 13(9), p. 241.
 
