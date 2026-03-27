@@ -7,7 +7,7 @@ You can use Shell Scripting for Beginners, Automating Server Configuration with 
 -------------------------------
 This report presents a Bash-based automation script developed to provision and configure cloud infrastructure within an OpenStack environment. The objective is to demonstrate how scripting supports automation in cloud operations by reducing manual configuration effort and improving consistency.
 1. Bash Script
-'''
+```
 #!/usr/bin/env bash
 set -euo pipefail
 
@@ -94,7 +94,7 @@ systemctl status nginx | head -n 10
 REMOTE
 
 echo "Server available at: http://$FLOATING_IP"
-'''
+```
  
 2. Explanation (Automation in Cloud Operations)
 Automation using scripting plays a fundamental role in modern cloud operations because it transforms manual administrative procedures into repeatable, consistent, and auditable workflows. In OpenStack environments, infrastructure components such as compute instances, networks, security groups, and keypairs can be provisioned either through a graphical interface or via command-line tools and APIs. While GUI-based management tools are useful for learning and visual oversight, scripting provides superior scalability, repeatability, and operational efficiency.
