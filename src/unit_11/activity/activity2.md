@@ -8,7 +8,6 @@ This study aims to develop and deploy a deep learning-based system capable of cl
 
 This study contributes by bridging the gap between model development and real-world implementation, providing a practical evaluation of both model performance and deployment challenges in a constrained cloud environment.
 
-
 2. Literature Review
 
 Recent advancements in deep learning have demonstrated substantial improvements in medical image classification. Convolutional neural networks (CNNs) are particularly effective due to their ability to automatically extract hierarchical features from image data. Transfer learning has become a dominant approach, allowing pre-trained models to be adapted for domain-specific tasks such as pneumonia detection (Albahli, 2023).
@@ -17,14 +16,13 @@ MobileNetV2 is a lightweight architecture designed for computational efficiency,
 
 Despite these advances, a significant gap remains between experimental performance and real-world deployment. While prior research demonstrates high classification accuracy, limited attention has been given to the practical challenges of deploying such models within constrained infrastructures (Johnson et al., 2024; Kumar et al., 2023). This highlights the need for research that not only evaluates model accuracy but also considers deployment feasibility. However, many existing studies prioritise classification accuracy without addressing deployment constraints, limiting their practical applicability in real-world healthcare systems.
 
-
 3. Methodology
 
 The model is developed using MobileNetV2 with transfer learning, leveraging pre-trained weights to improve performance while reducing training complexity. MobileNetV2 was selected over deeper architectures such as ResNet due to its lower computational requirements, making it more suitable for deployment within resource-constrained cloud environments. Input images are resized and normalised to match the expected input format of the model. The final classification layer is modified to perform binary classification, producing a probability score representing the likelihood of pneumonia.
 
 The dataset used in this study consists of labelled chest X-ray images categorised into normal and pneumonia classes. Pneumonia cases typically present with increased lung opacity and visible infiltrates, whereas normal images exhibit clear lung fields. 
 
-
+![Figure](images/figure-1.png)
  
 Figure 1: Sample chest X-ray images from the dataset showing normal and pneumonia cases
 
@@ -47,18 +45,19 @@ Storage constraints also resulted in installation failures, requiring manual cle
 
 The model performance was evaluated using standard classification metrics, including accuracy, precision, recall, and F1-score. These metrics provide a comprehensive assessment of predictive performance.
 
- 
+![Figure](images/figure-2.png) 
 
 Figure 2: Training and validation accuracy and loss curves
 
 As shown in Figure 2, the training process demonstrates effective convergence, with increasing accuracy and decreasing loss over successive epochs. The close alignment between training and validation curves indicates minimal overfitting.
 
- 
+![Figure](images/figure-3.png) 
 
 Figure 3: Confusion matrix for classification results
 
 The confusion matrix in Figure 3 shows strong classification performance, with a high number of correct predictions. However, the presence of false positives and false negatives indicates limitations in distinguishing subtle features in chest X-ray images.
 
+![Figure](images/figure-4.png)
  
 Figure 4: Classification report showing precision, recall, and F1-score
 
@@ -69,6 +68,7 @@ The classification report shown in Figure 4 highlights high recall, which is par
 
 The deployed system successfully enables users to upload chest X-ray images and receive real-time predictions. The application outputs both classification labels and confidence scores, improving interpretability.
 
+![Figure](images/figure-5.png)
  
 Figure 5: Web application interface displaying prediction output
 
