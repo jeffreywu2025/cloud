@@ -1,5 +1,7 @@
 Unit 5 Formative Discussion: Kubernetes Cluster Deployment
 
+Task:
+
 Deploy a 12-Factor App using Docker and manage it through Kubernetes. Set up a local Kubernetes cluster using Minikube and deploy a containerised application following the 12-Factor methodology.
 
 Deliverable: Post A step-by-step guide (500 words) explaining how you deployed the 12-Factor app on Kubernetes.
