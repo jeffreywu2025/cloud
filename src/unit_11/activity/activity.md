@@ -26,6 +26,7 @@ The image recognition model was developed using TensorFlow and Keras, two widely
 A convolutional neural network (CNN) architecture was implemented due to its effectiveness in image classification tasks. The dataset was loaded and automatically split into training and validation sets using TensorFlow utilities. The model was trained over several epochs, allowing it to learn features from the input images.
 
 ![Figure](images/figure-1.png)
+
 Figure1
 
 The results in Figure1 showed high training accuracy but lower validation accuracy, indicating overfitting. This occurred due to the limited dataset size, which restricted the model’s ability to generalise to new data. Similar findings have been reported in AI research, where small datasets lead to reduced model performance (Kumar, 2024).
@@ -46,10 +47,11 @@ Deployment Steps on OpenStack
 The OpenStack deployment required manual configuration of networking and infrastructure, providing greater control over the environment.
  
 5. Deployment on AWS EC2
- 
+
+ ![Figure](images/figure-2.png)
 Figure2 Connected the EC2 instance via SSH 
 
- 
+ ![Figure](images/figure-3.png)
 Figure3 The model was successfully tested using a remote API request
 The model was also deployed on AWS EC2 as shown on Figure 2 and 3, a public cloud platform that provides scalable and managed infrastructure.
 
@@ -92,9 +94,14 @@ The findings confirm that cloud computing is essential for enabling scalable and
 References
 
 Ficili, I. et al. (2025) Leveraging IoT, Cloud, and Edge Computing with AI. Sensors.
+
 Kanthed, S. (2024) The Role of OpenStack in Multi-Cloud Strategies. Quest Journals.
+
 Kumar, A. (2024) AI-Driven Innovations in Modern Cloud Computing. Journal of Computing Research.
+
 Mušić, D. (2024) Digital transformation with cloud computing platforms. ScienceDirect.
+
 Nama, P. (2024) Integrating AI with Cloud Computing. International Journal of Science and Research Archive.
+
 Sanjalawe, Y. et al. (2025) AI-driven job scheduling in cloud computing. Artificial Intelligence Review.
 
