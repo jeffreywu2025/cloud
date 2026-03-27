@@ -12,13 +12,13 @@ Number of replies: 0
 This task involved implementing and deploying a serverless greeting function using OpenFaaS, an open-source Function-as-a-Service (FaaS) platform designed for cloud-native environments. OpenFaaS enables developers to package functions as containers and deploy them via a gateway, abstracting infrastructure management while maintaining portability across platforms (OpenFaaS, 2024a).
 
 The deployment began by installing OpenFaaS on a Kubernetes cluster using Helm. After authenticating with the faas-cli, a new function was created using the Python Flask template:
-
+```
 faas-cli new greet --lang python3-flask-debian
-
+```
 This generated the handler and YAML configuration files. The function logic was implemented in handler.py, returning a personalised greeting. The YAML file was configured with the container image and registry details, after which the function was built and deployed:
-
+```
 faas-cli up -f greet.yml
-
+```
 The function became accessible via the OpenFaaS gateway and could be invoked through HTTP requests. This highlights how serverless platforms simplify deployment by abstracting infrastructure concerns, allowing developers to focus solely on application logic.
 
 From a cloud operations perspective, OpenFaaS demonstrates key advantages of serverless architecture. Firstly, it supports event-driven execution, ensuring compute resources are utilised only when required, improving cost efficiency. Secondly, it provides auto-scaling mechanisms based on request rate and CPU utilisation, enabling dynamic adaptation to workload demand (OpenFaaS, 2024b). This contrasts with traditional virtual machine provisioning, where resources are often statically allocated and underutilised.
@@ -30,13 +30,13 @@ Despite these limitations, serverless computing significantly reduces operationa
 _______________________________________________
 
 Function Code (handler.py)
-
+```
 def handle(req):
 
     name = req.strip() if req.strip() else "student"
 
     return f"Hello, {name}. Welcome to OpenFaaS!"
-
+```
 _______________________________________________
 
 References:
