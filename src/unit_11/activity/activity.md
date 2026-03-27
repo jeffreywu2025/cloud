@@ -49,10 +49,13 @@ The OpenStack deployment required manual configuration of networking and infrast
 5. Deployment on AWS EC2
 
  ![Figure](images/figure-2.png)
+ 
 Figure2 Connected the EC2 instance via SSH 
 
  ![Figure](images/figure-3.png)
+ 
 Figure3 The model was successfully tested using a remote API request
+
 The model was also deployed on AWS EC2 as shown on Figure 2 and 3, a public cloud platform that provides scalable and managed infrastructure.
 
 Deployment Steps on AWS
