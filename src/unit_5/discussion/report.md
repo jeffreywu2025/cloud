@@ -69,7 +69,7 @@ kubectl set env deployment/twelvefactor-hello MESSAGE="Updated message"
 
 kubectl rollout restart deployment/twelvefactor-hello
 
-![12app-2](images/12app-1.png)
+![12app-2](images/12app-2.png)
 
 Figure 2: Updating environment variables dynamically without rebuilding the container image.
 
@@ -78,7 +78,8 @@ As illustrated in Figure 2, the deployment was updated dynamically without rebui
 Application logs were retrieved via:
 
 kubectl logs -l app=twelvefactor-hello
-![12app-3](images/12app-1.png)
+
+![12app-3](images/12app-3.png)
 
 
 Figure 3: Application logs streamed from the running Kubernetes pod.
@@ -90,7 +91,7 @@ Finally, horizontal scalability was demonstrated:
 
 kubectl scale deployment/twelvefactor-hello --replicas=3
 
-![12app-4](images/12app-1.png)
+![12app-4](images/12app-4.png)
 
 Figure 4: Multiple pod replicas created following horizontal scaling.
 As shown in Figure 4, Kubernetes instantiated multiple replicas, confirming the stateless process model and horizontal scalability.
