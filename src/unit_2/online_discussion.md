@@ -1,7 +1,8 @@
 Unit 2 Formative Discussion: ROCCA and ToGAF
 
 Review the Anggraini N., Binariswanto and Legowo, N. 2019 article and post a discussion about ROCCA and ToGAF implementation in Government Agencies.
-
+_____________________________________________
+My post:
 
 Anggraini, Binariswanto and Legowo (2019) propose an integrated framework combining the Roadmap for Cloud Computing Adoption (ROCCA) and TOGAF 9.2 to address a persistent challenge in public sector IT transformation: the misalignment between organisational strategy and technological implementation. Their central contribution lies not merely in applying two established models, but in mapping ROCCA’s five operational phases (Analysis, Planning, Adoption, Migration and Management) to the TOGAF Architecture Development Method (ADM), thereby embedding cloud adoption within a formal enterprise architecture governance structure.
 
