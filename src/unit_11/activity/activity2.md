@@ -22,7 +22,7 @@ The model is developed using MobileNetV2 with transfer learning, leveraging pre-
 
 The dataset used in this study consists of labelled chest X-ray images categorised into normal and pneumonia classes. Pneumonia cases typically present with increased lung opacity and visible infiltrates, whereas normal images exhibit clear lung fields. 
 
-![Figure](images/figure-1.png)
+![Figure](images2/figure-1.png)
  
 Figure 1: Sample chest X-ray images from the dataset showing normal and pneumonia cases
 
@@ -45,19 +45,19 @@ Storage constraints also resulted in installation failures, requiring manual cle
 
 The model performance was evaluated using standard classification metrics, including accuracy, precision, recall, and F1-score. These metrics provide a comprehensive assessment of predictive performance.
 
-![Figure](images/figure-2.png) 
+![Figure](images2/figure-2.png) 
 
 Figure 2: Training and validation accuracy and loss curves
 
 As shown in Figure 2, the training process demonstrates effective convergence, with increasing accuracy and decreasing loss over successive epochs. The close alignment between training and validation curves indicates minimal overfitting.
 
-![Figure](images/figure-3.png) 
+![Figure](images2/figure-3.png) 
 
 Figure 3: Confusion matrix for classification results
 
 The confusion matrix in Figure 3 shows strong classification performance, with a high number of correct predictions. However, the presence of false positives and false negatives indicates limitations in distinguishing subtle features in chest X-ray images.
 
-![Figure](images/figure-4.png)
+![Figure](images2/figure-4.png)
  
 Figure 4: Classification report showing precision, recall, and F1-score
 
@@ -68,7 +68,7 @@ The classification report shown in Figure 4 highlights high recall, which is par
 
 The deployed system successfully enables users to upload chest X-ray images and receive real-time predictions. The application outputs both classification labels and confidence scores, improving interpretability.
 
-![Figure](images/figure-5.png)
+![Figure](images2/figure-5.png)
  
 Figure 5: Web application interface displaying prediction output
 
