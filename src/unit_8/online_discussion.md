@@ -7,6 +7,7 @@ Design and implement a Disaster Recovery (DR) plan for a cloud-based infrastruct
 Deliverable: A discussion post detailing the DR process, tools used, and a reflection on the effectiveness of the recovery strategy.
 
 -------------------------
+My post: 
 
 A Disaster Recovery (DR) plan was designed for a cloud-based infrastructure deployed on OpenStack to ensure service availability and rapid recovery following potential system failures. Disaster recovery strategies are essential in cloud environments because service disruptions can significantly impact organisational operations and data availability (NIST, 2023).
 
