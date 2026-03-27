@@ -58,6 +58,7 @@ In cost terms, the Public Cloud Portal integrates budget tracking within the onb
 In conclusion, AWS CloudFormation operationalises foundational cloud principles through structured automation and governance. It enables consistent orchestration of IaaS and PaaS resources, translating characteristics such as rapid elasticity and measured service into repeatable deployment processes (Mell and Grance, 2011). The GoDaddy case demonstrates efficiency gains through reduced provisioning time and standardised multi-account architectures. However, its effectiveness depends on governance maturity and architectural discipline. Although tightly integrated within the AWS ecosystem, which may constrain interoperability in multi-cloud strategies, CloudFormation ultimately functions as a strategic orchestration framework shaping modern cloud governance, scalability, and cost control.
 
 References
+
 AWS (2024) AWS CloudFormation user guide. Seattle: Amazon Web Services. Available at: https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/ (Accessed: 13 February 2026).
 
 AWS (2025a) AWS Outposts overview. Seattle: Amazon Web Services. Available at: https://docs.aws.amazon.com/outposts/ (Accessed: 13 February 2026).
