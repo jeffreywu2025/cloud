@@ -1,8 +1,10 @@
 Unit 4 Formative Activity
 
-Develop and execute a Bash script. Use any relevant technology. For example: Azure CLI (use your Essex email for Azure for Students), Docker (plus Docker Compose) or a more advanced tutorial on MicroStack (browser-based version of OpenStack).
-Submit a 500-word explanation of what the script achieves.
-You can use Shell Scripting for Beginners, Automating Server Configuration with Bash Scripts, and Write Your Own Bash Scripts for Automation for support.
+-Develop and execute a Bash script. Use any relevant technology. For example: Azure CLI (use your Essex email for Azure for Students), Docker (plus Docker Compose) or a more advanced tutorial on MicroStack (browser-based version of OpenStack).
+
+-Submit a 500-word explanation of what the script achieves.
+
+-You can use Shell Scripting for Beginners, Automating Server Configuration with Bash Scripts, and Write Your Own Bash Scripts for Automation for support.
 
 -------------------------------
 This report presents a Bash-based automation script developed to provision and configure cloud infrastructure within an OpenStack environment. The objective is to demonstrate how scripting supports automation in cloud operations by reducing manual configuration effort and improving consistency.
